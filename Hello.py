@@ -1,9 +1,10 @@
-a = 1
-print (a)
-b = 1
-print (b)
-for i in range(10000):
-    c = a + b
-    print (c)
-    a = b
-    b = c
+
+Sum = 0
+for i in range(101):
+    ...
+    Sum = Sum + i
+    ...
+
+    # do somethings
+
+print (Sum) # the Sum of the numbers
