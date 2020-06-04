@@ -1,18 +1,6 @@
-def add(a, b):
-    print (a, " + ", b,  " = ", (a+b))
-    return a+b
 
-def minus(a, b):
-    print (a, " - ", b,  " = ", (a-b))
-    return a-b
+A = [1,2,3,4,5,6,7,8,9,10]
 
-def multiply(a, b):
-    print (a, " * ", b,  " = ", (a*b))
-    return a*b
-
-def divide(a, b):
-    print (a, " / ", b,  " = ", (a/b))
-    return a/b
-
-
-print (divide (multiply (minus ( add(1,2), 4), 100), 20) )
+for i in range(len(A)):
+    if(A[i] -- 1 ):
+        print(A[i])
